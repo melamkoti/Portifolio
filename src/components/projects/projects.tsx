@@ -7,7 +7,7 @@ const projects = () => {
   const projectData = [
     {
       image: Project1,
-      link: "https://website1.com",
+      link: "https://www.srigruhafoods.in/",
       projectname: "Srigruhafoods",
       projectText:
         "“SrigruhaFoods is a platform that allows users to explore and order various food products tailored for local tastes.” i was using react and tailwind css it's very awasome experience i have more improve  my designing skills. ",
@@ -16,7 +16,7 @@ const projects = () => {
     },
     {
       image: Project2,
-      link: "https://website2.com",
+      link: "https://sairamfoods.in/",
       projectname: "SaiRam foods.",
 
       projectText:
@@ -27,7 +27,7 @@ const projects = () => {
     },
     {
       image: Project3,
-      link: "https://website3.com",
+      link: "https://www.vlacksolutions.com/",
       projectname: "Vlack Solutions",
 
       projectText:
@@ -38,7 +38,7 @@ const projects = () => {
     },
     {
       image: Project4,
-      link: "https://website4.com",
+      link: "https://koti-vellore-vit-college.netlify.app/",
       projectname: "Vallore Institue Of technology",
 
       projectText:
