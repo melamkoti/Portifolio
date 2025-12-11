@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-
 import Navbar from "./components/navbar";
 import Profile from "./components/Profile";
 import About from "./components/about";
@@ -8,10 +7,10 @@ import Skills from "./components/skills";
 import Experience from "./components/Experience";
 import ContactForm from "./components/contactMe";
 import "./App.css";
+
 const App = () => {
   const [activeSection, setActiveSection] = useState("home");
 
-  // Function to detect the current section in view
   const handleScroll = () => {
     const sections = [
       "home",
@@ -42,24 +41,24 @@ const App = () => {
   }, []);
 
   return (
-    <div className="boy flex flex-col">
+    <div className="flex flex-col min-h-screen">
       <Navbar activeSection={activeSection} />
-      <div id="home" className="">
+      <div id="home">
         <Profile />
       </div>
-      <div id="about" className="">
+      <div id="about">
         <About />
       </div>
-      <div id="skills" className="">
+      <div id="skills">
         <Skills />
       </div>
-      <div id="projects" className="">
+      <div id="projects">
         <Projects />
       </div>
-      <div id="experience" className="">
+      <div id="experience">
         <Experience />
       </div>
-      <div id="contact" className="">
+      <div id="contact">
         <ContactForm />
       </div>
     </div>
